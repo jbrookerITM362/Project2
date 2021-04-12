@@ -216,6 +216,74 @@ img {
 background: -webkit-linear-gradient(to right, #afd4ff, #0e0be0);
 background: linear-gradient(to right, #0e0be0, #afd4ff);
 }
+	
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
 </style>
 	</head>
 <body>
@@ -229,6 +297,30 @@ background: linear-gradient(to right, #0e0be0, #afd4ff);
         <li><a href="membership.html"> Membership</a></li>
       </ul>
     </nav>
+
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">About Us<i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+	    <a href="https://www.worldialogue.org/about-us">About Us</a>
+      <a href="https://www.worldialogue.org/history">History</a>
+      <a href="https://www.worldialogue.org/constitution">Constitution</a>
+      <a href="https://www.worldialogue.org/d---u-journal">D & U Journal</a>
+    </div>
+  </div>
+  <div class="subnav">
+    <button class="subnavbtn">ISUD Announcements and Events <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="https://www.worldialogue.org/isud-announcements">ISUD Announcements and Events</a>
+      <a href="congress2018.html">2018 Congress</a>
+      <a href="https://www.worldialogue.org/congress-details">2016 Congress</a>
+      <a href="https://www.worldialogue.org/past-events">Past Events</a>
+	    <a href="https://www.worldialogue.org/videos">Videos</a>
+    </div>
+  </div>
+  <a href="membership.html">Membership</a>
+</div>
 	
 <h2 style="text-align:center">2018 Congress</h2>
 
