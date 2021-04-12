@@ -3,10 +3,84 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <title>
+      # pic1 {
+  align-self: center;
+  max-width: 100%;
+  border-radius: 10px;
+  }
+  h1 {
+      font-family: Palatino Linotype;
+      text-align: center;
+      }
+  #navbar ul {
+  background-color: #ff884d;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#navbar ul li {
+  display: inline-block;
+}
+#navbar ul li a {
+  padding: 15px;
+  width: 100px;
+  display: block;
+  color: yellow;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+}
+#navbar ul li a:hover {
+  background-color: blue;
+  border-radius: 10px;
+  transition: 0.6s;
+}
+ iframe {
+   align-self: center;
+   width: 45em;
+   height: 25em;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
+  .text {
+    font-family: Tahoma;
+    margin: 1.5em;
+    border: 1px dotted purple;
+    font-size: 20px;
+    color: #CBD708;
+}
+  #pic2 {
+  float: left;
+  width: 50%;
+  width: 400px;
+  height: 450px;
+  float: left;
+  padding: 5px;
+  background-color: rgba(201, 76, 76, 0.3);
+  border: 2px dashed black;
+}
+#pic3 {
+  float: right;
+  width: 50%;
+  width: 400px;
+  height: 450px;
+  float: right;
+  padding: 5px;
+  background-color: rgba(201, 76, 76, 0.3);
+  border: 2px dashed black;
+}
+div.contact {
+  text-align: bottom;
+  }
+    </title>
   </head>
   <body>
-    <img src="images/p1.jpg" alt="p1">
+    <img id="pic1" class="center" src="images/p1.jpg" alt="p1">
     <h1>The International Society for Universal Dialogue</h1>
     <nav id="navbar">
       <ul>
@@ -15,15 +89,16 @@
         <li><a href="membership.html"> Membership</a></li>
       </ul>
     </nav>
-    <iframe src="https://www.youtube.com/embed/sF5n78x9LgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <p>International Society for Universal Dialogue is a philosophical society whose purpose is to promote discussions of human rights, world peace, and preservation of the environment</p>
-    <img src="images/p2.jpg" alt="p2">
-    <img src="images/p3.jpg" alt="p3">
-    <img src="images/p4.jpg" alt="p4">
-    <p>@Contact information:</p>
-    <ul>
-      <li>Phone number: 3126258934</li>
-      <li>Email: yshwkd@gmail.com</li>
-    </ul>
+    <iframe class="center" src="https://www.youtube.com/embed/sF5n78x9LgE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p class="text">International Society for Universal Dialogue is a philosophical society whose purpose is to promote discussions of human rights, world peace, and preservation of the environment</p>
+    <img id="pic2" src="images/p2.jpg" alt="p2">
+    <img id="pic3" src="images/p3.jpg" alt="p3">
+    <div class="contact">
+      <p>@Contact information:</p>
+      <ul>
+        <li>Phone number: 3126258934</li>
+        <li>Email: yshwkd@gmail.com</li>
+      </ul>
+    </div>
   </body>
 </html>
