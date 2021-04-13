@@ -411,6 +411,19 @@ div.contact {
 
 /* Media queries */
 
+@media screen and (min-width: 3.1em) {
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 40%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+
+}
+
 @media screen and (min-width: 6.2em) {
   #wrap {
     display: inline-block;
@@ -421,6 +434,9 @@ div.contact {
     display: inline-block;
     text-align: center;
     justify-content: center;
+  }
+  .text{
+  	font-size: 150%
   }
 }
 
@@ -435,6 +451,10 @@ div.contact {
     text-align: center;
     justify-content: center;
   }
+  .text{
+  	font-size: 150%
+  }
+
 }
 
 @media screen and (min-width: 29.6875em) {
@@ -444,6 +464,9 @@ div.contact {
   }
   html {
     font-size: 100%;
+  }
+    .text{
+  	font-size: 120%
   }
 }
 
