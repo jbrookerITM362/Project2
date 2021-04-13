@@ -74,7 +74,6 @@ ul {
   padding: 1em;
   border-color: #222;
   background-color: #55acee;
-  display: inline-block;
 }
 
 * {
@@ -388,6 +387,7 @@ div.contact {
     height: 2.5em;
 }
 
+/* Media queries */
 
 @media screen and (min-width: 6.2em) {
   #wrap {
