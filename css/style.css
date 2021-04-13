@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  font-family: Palatino Linotype;
+  font-family: "Palatino Linotype";
   font-size: 1.666667em; /*30 /18 =1.666667em */
   padding-top: 1em;
   padding-bottom: 1em;
@@ -55,7 +55,7 @@ p {
   margin: 0 1.5%;
   width: 50%;
   padding: .5em;
-  background-color: #333;a(201, 76, 76, 0.3);
+  background-color: #333;
 }
 
 #pic3 {
@@ -63,7 +63,7 @@ p {
   margin: 0 1.5%;
   width: 40.99%;
   padding: .5em;
-  background-color: #333;(201, 76, 76, 0.3);
+  background-color: #333;
 }
 
 form{
@@ -496,4 +496,5 @@ div.contact {
   h1 {
     font-size: 200%;
   }
+}
 }
