@@ -70,6 +70,22 @@ p {
   background-color: rgba(201, 76, 76, 0.3);
 }
 
+form{
+  padding: 1em;
+  border-color: #222;
+  background-color: #66757F;
+}
+
+label{
+  display: block;
+  padding-bottom: 0.25em;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: underline;
+  margin-top: 1em;
+  color: #E1E8ED;
+}
+
 ul {
   padding: 1em;
   border-color: #222;
