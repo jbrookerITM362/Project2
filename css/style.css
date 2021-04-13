@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  font-family: 'Roboto Slab', serif;
+  font-family: Palatino Linotype;
   font-size: 1.666667em; /*30 /18 =1.666667em */
   padding-top: 1em;
   padding-bottom: 1em;
@@ -28,7 +28,28 @@ h2 {
   align-self: center;
   max-width: 100%;
   border-radius: 10px;
-  }
+}
+
+#pic2 {
+  float: left;
+  width: 50%;
+  width: 400px;
+  height: 450px;
+  float: left;
+  padding: 5px;
+  background-color: rgba(201, 76, 76, 0.3);
+}
+
+#pic3 {
+  float: right;
+  width: 50%;
+  width: 400px;
+  height: 450px;
+  float: right;
+  padding: 5px;
+  background-color: rgba(201, 76, 76, 0.3);
+}
+
 
 * {
   box-sizing: border-box;
@@ -299,17 +320,6 @@ background: linear-gradient(to right, #0e0be0, #afd4ff);
   display: block;
 }
 
-# pic1 {
-  align-self: center;
-  max-width: 100%;
-  border-radius: 10px;
-}
-
-h1 {
-   font-family: Palatino Linotype;
-   text-align: center;
-}
-
 #navbar ul {
   overflow: hidden;
   background-color: #333;
@@ -352,26 +362,9 @@ iframe {
     color: #66757F;
 }
 
-#pic2 {
-  float: left;
-  width: 50%;
-  width: 400px;
-  height: 450px;
-  float: left;
-  padding: 5px;
-  background-color: rgba(201, 76, 76, 0.3);
-}
-
-#pic3 {
-  float: right;
-  width: 50%;
-  width: 400px;
-  height: 450px;
-  float: right;
-  padding: 5px;
-  background-color: rgba(201, 76, 76, 0.3);
-}
-
 div.contact {
-  text-align: bottom;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5em;
 }
