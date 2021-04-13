@@ -438,6 +438,12 @@ div.contact {
   .text{
   	font-size: 150%
   }
+     .navbar a {
+  	font-size: 100%;
+  }
+  .subnav .subnavbtn {
+  	font-size: 100%;
+  }
 }
 
 @media screen and (min-width: 18.75em) {
@@ -454,7 +460,12 @@ div.contact {
   .text{
   	font-size: 150%
   }
-
+   .navbar a {
+  	font-size: 100%;
+  }
+  .subnav .subnavbtn {
+  	font-size: 100%;
+  }
 }
 
 @media screen and (min-width: 29.6875em) {
@@ -466,7 +477,13 @@ div.contact {
     font-size: 100%;
   }
     .text{
-  	font-size: 120%
+  	font-size: 120%;
+  }
+  .navbar a {
+  	font-size: 100%;
+  }
+  .subnav .subnavbtn {
+  	font-size: 100%;
   }
 }
 
