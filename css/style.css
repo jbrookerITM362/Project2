@@ -70,6 +70,13 @@ p {
   background-color: rgba(201, 76, 76, 0.3);
 }
 
+ul {
+  padding: 1em;
+  border-color: #222;
+  background-color: #55acee;
+  display: inline-block;
+}
+
 * {
   box-sizing: border-box;
 }
