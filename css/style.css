@@ -395,7 +395,9 @@ div.contact {
     display: inline-block;
     text-align: center;
     justify-content: center;
-
+     .text{
+  	font-size: 200%
+  }
 }
 
 @media screen and (min-width: 6.2em) {
@@ -410,7 +412,7 @@ div.contact {
     justify-content: center;
   }
   .text{
-  	font-size: 150%
+  	font-size: 200%
   }
      .navbar a {
   	font-size: 100%;
@@ -435,10 +437,10 @@ div.contact {
   	font-size: 150%
   }
    .navbar a {
-  	font-size: 100%;
+  	font-size: 130%;
   }
   .subnav .subnavbtn {
-  	font-size: 100%;
+  	font-size: 130%;
   }
 }
 
