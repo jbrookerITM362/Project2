@@ -135,7 +135,6 @@ img {
   font-size: 20px;
   border-radius: 0 3px 3px 0;
   user-select: none;
-  -webkit-user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -296,7 +295,6 @@ img {
 
 .tilesWrap li:before {
 	background: #C9FFBF;
-background: -webkit-linear-gradient(to right, #afd4ff, #55acee);
 background: linear-gradient(to right, #55acee, #afd4ff);
 }
 
