@@ -1,12 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
 
 html {
 	font-family: Literata, "Times New Roman", Arial; /* Imported Font Literata */
 	font-size: 1.25em;
 	background: #F5F5F5;
 	color: #1E1E24;
+	margin: 1.5em;
 }
 h1 {
-	font-family: "Palatino Linotype";
 	font-size: 1.666667em; /*30 /18 =1.666667em */
 	padding-top: 1em;
 	padding-bottom: 1em;
@@ -33,9 +34,7 @@ p {
 	padding: 0.5em;
 }
 .text {
-	margin: 1.5em;
-	font-size: 20px;
-	color: #66757F;
+
 }
 #pic1 {
 	align-self: center;
@@ -342,30 +341,12 @@ div.contact {
 		display: inline-block;
 		justify-content: center;
 	}
-	html {
-		font-size: 40%;
-		display: inline-block;
-		text-align: center;
-		justify-content: center;
-	}
-	.text{
-		font-size: 200%
-}
 }
 @media screen and (min-width: 6.2em) {
 	#wrap {
 		display: inline-block;
 		justify-content: center;
 	}
-	html {
-		font-size: 50%;
-		display: inline-block;
-		text-align: center;
-		justify-content: center;
-	}
-	.text{
-		font-size: 200%
-}
 	.navbar a {
 		font-size: 100%;
 	}
@@ -378,15 +359,10 @@ div.contact {
 		display: inline-block;
 		justify-content: center;
 	}
-	html {
-		font-size: 65%;
-		display: inline-block;
-		text-align: center;
-		justify-content: center;
-	}
-	.text{
+	html{
 		font-size: 150%
-}
+		width: 80%;
+    }
 	.navbar a {
 		font-size: 130%;
 	}
@@ -400,10 +376,7 @@ div.contact {
 		justify-content: center;
 	}
 	html {
-		font-size: 100%;
-	}
-	.text{
-		font-size: 120%;
+		/* font-size: 150%; */
 	}
 	.navbar a {
 		font-size: 100%;
@@ -417,8 +390,33 @@ div.contact {
 		display: inline-block;
 		justify-content: center;
 	}
+	html {
+		display: inline-block;
+		text-align: center;
+		justify-content: center;
+		font-size: 100%;
+		margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+	}
+
+h1 {}
 	h1 {
 		font-size: 200%;
+	}
+}
+@media screen and (min-width: 80em) {
+	#wrap {
+		display: inline-block;
+		justify-content: center;
+	}
+	html {
+		margin-left: auto;
+        margin-right: auto;
+        width: 60em;
+	}
+	.text {
+		font-size: 150%;
 	}
 }
 }
