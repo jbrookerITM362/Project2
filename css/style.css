@@ -61,6 +61,9 @@ form{
 	border-color: #222;
 	background-color: #0B62A4;
 }
+input{
+	width: 90%;
+}
 label{
 	display: block;
 	padding-bottom: 0.25em;
@@ -421,6 +424,9 @@ div.contact {
 	}
 	h1 {
 		font-size: 200%;
+	}
+		input {
+		width: 50%;
 	}
 }
 @media screen and (min-width: 80em) {
