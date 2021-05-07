@@ -3,7 +3,6 @@ body {
   margin: 0;
   text-align: center;
 }
-
 h1 {
   font-family: "Palatino Linotype";
   font-size: 1.666667em; /*30 /18 =1.666667em */
@@ -13,8 +12,6 @@ h1 {
   font-weight: bold;
   border-color: #66757F;
 }
-
-
 h2 {
   font-weight: bold;
   text-align: center;
@@ -23,20 +20,16 @@ h2 {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 }
-
 h3 {
   font-weight: bold;
   padding-bottom: 0.5em;
 }
-
 h4 {
   font-weight: bold;
 }
-
 p {
   padding: 0.5em;
 }
-
 .text {
   font-family: Tahoma;
   margin: 1.5em;
@@ -49,7 +42,6 @@ p {
   max-width: 100%;
   border-radius: 10px;
 }
-
 #pic2 {
   float: left;
   margin: 0 1.5%;
@@ -57,7 +49,6 @@ p {
   padding: .5em;
   background-color: #333;
 }
-
 #pic3 {
   float: right;
   margin: 0 1.5%;
@@ -65,13 +56,11 @@ p {
   padding: .5em;
   background-color: #333;
 }
-
 form{
   padding: 1em;
   border-color: #222;
   background-color: #66757F;
 }
-
 label{
   display: block;
   padding-bottom: 0.25em;
@@ -81,13 +70,11 @@ label{
   margin-top: 1em;
   color: #E1E8ED;
 }
-
 ul {
   padding: 1em;
   border-color: #222;
   background-color: #55acee;
 }
-
 content {
     width : 100%;
     display: inline-block;
@@ -97,30 +84,24 @@ footer {
     height : 60px;
     display: inline-block;
 }
-
 * {
   box-sizing: border-box;
 }
-
 img {
   vertical-align: middle;
 }
-
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
 }
-
 /* Hide the images by default */
 .mySlides {
   display: none;
 }
-
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
   cursor: pointer;
 }
-
 /* Next & previous buttons */
 .prev,
 .next {
@@ -136,19 +117,16 @@ img {
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
-
 /* Position the "next button" to the right */
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
-
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
@@ -157,7 +135,6 @@ img {
   position: absolute;
   top: 0;
 }
-
 /* Container for image text */
 .caption-container {
   text-align: center;
@@ -165,29 +142,24 @@ img {
   padding: 2px 16px;
   color: white;
 }
-
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
-
 /* Six columns side by side */
 .column {
   float: left;
   width: 16.66%;
 }
-
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
 }
-
 .active,
 .demo:hover {
   opacity: 1;
 }
-
 .tilesWrap {
 	padding: 0;
 	margin: 50px auto;
@@ -271,7 +243,6 @@ img {
 	top: 0px;
 	opacity: 0.6;
 }
-
 .tilesWrap li:before {
 	content: '';
 	position: absolute;
@@ -297,13 +268,11 @@ img {
 	background: #C9FFBF;
 background: linear-gradient(to right, #55acee, #afd4ff);
 }
-
 /* The navigation menu */
 .navbar {
   overflow: hidden;
   background-color: #333;
 }
-
 /* Navigation links */
 .navbar a {
   float: left;
@@ -313,13 +282,11 @@ background: linear-gradient(to right, #55acee, #afd4ff);
   padding: 14px 16px;
   text-decoration: none;
 }
-
 /* The subnavigation menu */
 .subnav {
   float: left;
   overflow: hidden;
 }
-
 /* Subnav button */
 .subnav .subnavbtn {
   font-size: 16px;
@@ -331,12 +298,9 @@ background: linear-gradient(to right, #55acee, #afd4ff);
   font-family: inherit;
   margin: 0;
 }
-
-/* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
   background-color: #55acee;
 }
-
 /* Style the subnav content - positioned absolute */
 .subnav-content {
   display: none;
@@ -346,20 +310,17 @@ background: linear-gradient(to right, #55acee, #afd4ff);
   width: 100%;
   z-index: 1;
 }
-
 /* Style the subnav links */
 .subnav-content a {
   float: left;
   color: white;
   text-decoration: none;
 }
-
 /* Add a grey background color on hover */
 .subnav-content a:hover {
   background-color: #eee;
   color: black;
 }
-
 /* When you move the mouse over the subnav container, open the subnav content */
 .subnav:hover .subnav-content {
   display: block;
@@ -375,16 +336,13 @@ iframe {
     margin-right: auto;
     display: block
 }
-
 div.contact {
     position: absolute;
     bottom: 0;
     width: 100%;
     height: 2.5em;
 }
-
 /* Media queries */
-
 @media screen and (min-width: 3.1em) {
   #wrap {
     display: inline-block;
@@ -399,7 +357,6 @@ div.contact {
   	font-size: 200%
   }
 }
-
 @media screen and (min-width: 6.2em) {
   #wrap {
     display: inline-block;
@@ -421,7 +378,6 @@ div.contact {
   	font-size: 100%;
   }
 }
-
 @media screen and (min-width: 18.75em) {
   #wrap {
     display: inline-block;
@@ -443,7 +399,6 @@ div.contact {
   	font-size: 130%;
   }
 }
-
 @media screen and (min-width: 29.6875em) {
   #wrap {
     display: inline-block;
@@ -462,8 +417,6 @@ div.contact {
   	font-size: 100%;
   }
 }
-
-
 @media screen and (min-width: 55.555556em) {
   #wrap {
     display: inline-block;
