@@ -1,12 +1,13 @@
-body {
-	font-family: Arial;
-	margin: 0;
-	text-align: center;
+
+html {
+	font-family: Literata, "Times New Roman", Arial; /* Imported Font Literata */
+	font-size: 1.25em;
+	background: #F5F5F5;
+	color: #1E1E24;
 }
 h1 {
 	font-family: "Palatino Linotype";
-	font-size: 1.666667em;
-	/*30 /18 =1.666667em */
+	font-size: 1.666667em; /*30 /18 =1.666667em */
 	padding-top: 1em;
 	padding-bottom: 1em;
 	text-align: center;
@@ -32,7 +33,6 @@ p {
 	padding: 0.5em;
 }
 .text {
-	font-family: Tahoma;
 	margin: 1.5em;
 	font-size: 20px;
 	color: #66757F;
@@ -347,77 +347,78 @@ div.contact {
 		display: inline-block;
 		text-align: center;
 		justify-content: center;
-		.text{
-			font-size: 200%
+	}
+	.text{
+		font-size: 200%
 }
-	}
-	@media screen and (min-width: 6.2em) {
-		#wrap {
-			display: inline-block;
-			justify-content: center;
-		}
-		html {
-			font-size: 50%;
-			display: inline-block;
-			text-align: center;
-			justify-content: center;
-		}
-		.text{
-			font-size: 200%
 }
-		.navbar a {
-			font-size: 100%;
-		}
-		.subnav .subnavbtn {
-			font-size: 100%;
-		}
+@media screen and (min-width: 6.2em) {
+	#wrap {
+		display: inline-block;
+		justify-content: center;
 	}
-	@media screen and (min-width: 18.75em) {
-		#wrap {
-			display: inline-block;
-			justify-content: center;
-		}
-		html {
-			font-size: 65%;
-			display: inline-block;
-			text-align: center;
-			justify-content: center;
-		}
-		.text{
-			font-size: 150%
+	html {
+		font-size: 50%;
+		display: inline-block;
+		text-align: center;
+		justify-content: center;
+	}
+	.text{
+		font-size: 200%
 }
-		.navbar a {
-			font-size: 130%;
-		}
-		.subnav .subnavbtn {
-			font-size: 130%;
-		}
+	.navbar a {
+		font-size: 100%;
 	}
-	@media screen and (min-width: 29.6875em) {
-		#wrap {
-			display: inline-block;
-			justify-content: center;
-		}
-		html {
-			font-size: 100%;
-		}
-		.text{
-			font-size: 120%;
-		}
-		.navbar a {
-			font-size: 100%;
-		}
-		.subnav .subnavbtn {
-			font-size: 100%;
-		}
+	.subnav .subnavbtn {
+		font-size: 100%;
 	}
-	@media screen and (min-width: 55.555556em) {
-		#wrap {
-			display: inline-block;
-			justify-content: center;
-		}
-		h1 {
-			font-size: 200%;
-		}
+}
+@media screen and (min-width: 18.75em) {
+	#wrap {
+		display: inline-block;
+		justify-content: center;
 	}
+	html {
+		font-size: 65%;
+		display: inline-block;
+		text-align: center;
+		justify-content: center;
+	}
+	.text{
+		font-size: 150%
+}
+	.navbar a {
+		font-size: 130%;
+	}
+	.subnav .subnavbtn {
+		font-size: 130%;
+	}
+}
+@media screen and (min-width: 29.6875em) {
+	#wrap {
+		display: inline-block;
+		justify-content: center;
+	}
+	html {
+		font-size: 100%;
+	}
+	.text{
+		font-size: 120%;
+	}
+	.navbar a {
+		font-size: 100%;
+	}
+	.subnav .subnavbtn {
+		font-size: 100%;
+	}
+}
+@media screen and (min-width: 55.555556em) {
+	#wrap {
+		display: inline-block;
+		justify-content: center;
+	}
+	h1 {
+		font-size: 200%;
+	}
+}
 }
