@@ -347,6 +347,7 @@ div.contact {
     justify-content: center;
 
 }
+}
 @media screen and (min-width: 6.2em) {
   #wrap {
     display: inline-block;
@@ -435,5 +436,4 @@ div.contact {
 	.text {
 		font-size: 150%;
 	}
-}
 }
