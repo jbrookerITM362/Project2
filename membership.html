@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" media="screen" href="css/resets.css" />
-		<link rel="stylesheet" media="screen" href="css/style.css" />
+    <link rel="stylesheet" media="screen" href="css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/site.js"></script>
     <title> Membership Signup</title>
   </head>
 
@@ -34,7 +36,7 @@
       <a href="membership.html">Membership</a>
     </div>
 
-<form action=null>
+<form name=Regform method="get" autocomplete="on" action="#null" onsubmit= "return validateForm()">
   <label for="fname">First name:</label><br>
   <input type="text" id="fname" name="fname"><br>
 
