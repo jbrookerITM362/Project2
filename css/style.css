@@ -337,38 +337,58 @@ div.contact {
 }
 /* Media queries */
 @media screen and (min-width: 3.1em) {
-	#wrap {
-		display: inline-block;
-		justify-content: center;
-	}
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 40%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+
 }
 @media screen and (min-width: 6.2em) {
-	#wrap {
-		display: inline-block;
-		justify-content: center;
-	}
-	.navbar a {
-		font-size: 100%;
-	}
-	.subnav .subnavbtn {
-		font-size: 100%;
-	}
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 50%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+  .text{
+  	font-size: 150%
+  }
+     .navbar a {
+  	font-size: 100%;
+  }
+  .subnav .subnavbtn {
+  	font-size: 100%;
+  }
 }
 @media screen and (min-width: 18.75em) {
-	#wrap {
-		display: inline-block;
-		justify-content: center;
-	}
-	html{
-		font-size: 150%
-		width: 80%;
-    }
-	.navbar a {
-		font-size: 130%;
-	}
-	.subnav .subnavbtn {
-		font-size: 130%;
-	}
+  #wrap {
+    display: inline-block;
+    justify-content: center;
+  }
+  html {
+    font-size: 65%;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+  .text{
+  	font-size: 150%
+  }
+   .navbar a {
+  	font-size: 100%;
+  }
+  .subnav .subnavbtn {
+  	font-size: 100%;
+  }
 }
 @media screen and (min-width: 29.6875em) {
 	#wrap {
@@ -376,7 +396,7 @@ div.contact {
 		justify-content: center;
 	}
 	html {
-		/* font-size: 150%; */
+		font-size: 80%;
 	}
 	.navbar a {
 		font-size: 100%;
@@ -399,8 +419,6 @@ div.contact {
         margin-right: auto;
         width: 80%;
 	}
-
-h1 {}
 	h1 {
 		font-size: 200%;
 	}
