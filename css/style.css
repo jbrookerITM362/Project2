@@ -1,9 +1,10 @@
+/*Color Pallette from https://paletton.com/#uid=53x0s0kw0w0jyC+oRxVy4oIDfjr */
 @import url("https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
 
 html {
 	font-family: Literata, "Times New Roman", Arial; /* Imported Font Literata */
 	font-size: 1.25em;
-	background: #F5F5F5;
+	background: #f1f1f1
 	color: #1E1E24;
 	margin: 1.5em;
 }
@@ -13,13 +14,13 @@ h1 {
 	padding-bottom: 1em;
 	text-align: center;
 	font-weight: bold;
-	border-color: #66757F;
+	border-color: #0B62A1;
 }
 h2 {
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 1em;
-	background: #55acee;
+	background: #0B62A4;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
 }
@@ -46,19 +47,19 @@ p {
 	margin: 0 1.5%;
 	width: 50%;
 	padding: .5em;
-	background-color: #333;
+	background-color: #0B62A4;
 }
 #pic3 {
 	float: right;
 	margin: 0 1.5%;
 	width: 40.99%;
 	padding: .5em;
-	background-color: #333;
+	background-color: #0B62A4;
 }
 form{
 	padding: 1em;
 	border-color: #222;
-	background-color: #66757F;
+	background-color: #0B62A4;
 }
 label{
 	display: block;
@@ -71,8 +72,8 @@ label{
 }
 ul {
 	padding: 1em;
-	border-color: #222;
-	background-color: #55acee;
+	border-color: #1921B1;
+	background-color: #00AC6B;
 }
 content {
 	width : 100%;
@@ -259,8 +260,6 @@ img {
 	background: rgba(255, 255, 255, 0.02);
 }
 .tilesWrap li:before {
-	background: #C9FFBF;
-	background: linear-gradient(to right, #55acee, #afd4ff);
 }
 /* The navigation menu */
 .navbar {
@@ -271,7 +270,7 @@ img {
 .navbar a {
 	float: left;
 	font-size: 16px;
-	color: white;
+	color: #ffffff;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
@@ -293,14 +292,14 @@ img {
 	margin: 0;
 }
 .navbar a:hover, .subnav:hover .subnavbtn {
-	background-color: #55acee;
+	background-color: #0B62A4;
 }
 /* Style the subnav content - positioned absolute */
 .subnav-content {
 	display: none;
 	position: absolute;
 	left: 0;
-	background-color: #55acee;
+	background-color: #0B62Ae;
 	width: 100%;
 	z-index: 1;
 }
