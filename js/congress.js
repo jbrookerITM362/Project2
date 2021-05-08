@@ -1,5 +1,7 @@
 var slideIndex = 1;
 showSlides(slideIndex);
+document.getElementById("prev").addEventListener('click', plusSlides(-1));
+document.getElementById("next").addEventListener('click', plusSlides(1));
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
