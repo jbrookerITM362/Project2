@@ -2,10 +2,7 @@ var slideIndex = 1;
 
 window.onload = function() {
   showSlides(slideIndex);
-};
-
-showSlides(slideIndex);
-document.getElementById("prev").addEventListener('click', function(){
+  document.getElementById("prev").addEventListener('click', function(){
     plusSlides(-1);
 });
 document.getElementById("next").addEventListener('click', function(){
@@ -26,6 +23,10 @@ document.getElementById("photo4").addEventListener('click', function(){
 document.getElementById("photo5").addEventListener('click', function(){
     currentSlide(5);
 });
+};
+
+showSlides(slideIndex);
+
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
