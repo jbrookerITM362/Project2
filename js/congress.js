@@ -1,4 +1,9 @@
 var slideIndex = 1;
+
+window.onload = function() {
+  showSlides(slideIndex);
+};
+
 showSlides(slideIndex);
 document.getElementById("prev").addEventListener('click', function(){
     plusSlides(-1);
