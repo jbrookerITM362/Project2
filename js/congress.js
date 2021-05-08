@@ -1,12 +1,26 @@
 var slideIndex = 1;
 showSlides(slideIndex);
-document.getElementById("prev").addEventListener('click', plusSlides(-1));
-document.getElementById("next").addEventListener('click', plusSlides(1));
-document.getElementById("photo1").addEventListener('click', currentSlide(1));
-document.getElementById("photo2").addEventListener('click', currentSlide(2));
-document.getElementById("photo3").addEventListener('click', currentSlide(3));
-document.getElementById("photo4").addEventListener('click', currentSlide(4));
-document.getElementById("photo5").addEventListener('click', currentSlide(5));
+document.getElementById("prev").addEventListener('click', function(){
+    plusSlides(-1);
+});
+document.getElementById("next").addEventListener('click', function(){
+    plusSlides(1);
+});
+document.getElementById("photo1").addEventListener('click', function(){
+    currentSlide(1);
+});
+document.getElementById("photo2").addEventListener('click', function(){
+    currentSlide(2);
+});
+document.getElementById("photo3").addEventListener('click', function(){
+    currentSlide(3);
+});
+document.getElementById("photo4").addEventListener('click', function(){
+    currentSlide(4);
+});
+document.getElementById("photo5").addEventListener('click', function(){
+    currentSlide(5);
+});
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
