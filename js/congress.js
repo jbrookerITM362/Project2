@@ -26,6 +26,9 @@ document.getElementById("photo4").addEventListener('click', function(){
 document.getElementById("photo5").addEventListener('click', function(){
     currentSlide(5);
 });
+document.getElementById("photo6").addEventListener('click', function(){
+    currentSlide(6);
+});
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
