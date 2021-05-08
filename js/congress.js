@@ -8,7 +8,7 @@ showSlides(slideIndex);
 document.getElementById("prev").addEventListener("click", function(){
     plusSlides(-1);
 });
-document.getElementById("next").addEventListener("click" function(){
+document.getElementById("next").addEventListener("click", function(){
     plusSlides(1);
 });
 document.getElementById("photo1").addEventListener('click', function(){
