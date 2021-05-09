@@ -34,6 +34,7 @@ function showSlides(n) {
 
 document.getElementById("prev").addEventListener("click", function(){
     plusSlides(-1);
+    alert("test");
 });
 document.getElementById("next").addEventListener("click", function(){
     plusSlides(1);
