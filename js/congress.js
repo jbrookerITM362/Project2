@@ -5,30 +5,6 @@ window.onload = function() {
 };
 
 showSlides(slideIndex);
-document.getElementById("prev").addEventListener("click", function(){
-    plusSlides(-1);
-});
-document.getElementById("next").addEventListener("click", function(){
-    plusSlides(1);
-});
-document.getElementById("photo1").addEventListener('click', function(){
-    currentSlide(1);
-});
-document.getElementById("photo2").addEventListener('click', function(){
-    currentSlide(2);
-});
-document.getElementById("photo3").addEventListener('click', function(){
-    currentSlide(3);
-});
-document.getElementById("photo4").addEventListener('click', function(){
-    currentSlide(4);
-});
-document.getElementById("photo5").addEventListener('click', function(){
-    currentSlide(5);
-});
-document.getElementById("photo6").addEventListener('click', function(){
-    currentSlide(6);
-});
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
@@ -55,3 +31,29 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+document.getElementById("prev").addEventListener("click", function(){
+    plusSlides(-1);
+});
+document.getElementById("next").addEventListener("click", function(){
+    plusSlides(1);
+});
+document.getElementById("photo1").addEventListener('click', function(){
+    currentSlide(1);
+});
+document.getElementById("photo2").addEventListener('click', function(){
+    currentSlide(2);
+});
+document.getElementById("photo3").addEventListener('click', function(){
+    currentSlide(3);
+});
+document.getElementById("photo4").addEventListener('click', function(){
+    currentSlide(4);
+});
+document.getElementById("photo5").addEventListener('click', function(){
+    currentSlide(5);
+});
+document.getElementById("photo6").addEventListener('click', function(){
+    currentSlide(6);
+});
+
