@@ -13,7 +13,7 @@ showSlides();
 function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo cursor");
+  var dots = document.getElementsByClassName("demo");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
