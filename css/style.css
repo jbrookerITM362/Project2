@@ -61,6 +61,9 @@ form{
 	border-color: #222;
 	background-color: #0B62A4;
 }
+fname{ 
+	line-break: auto;
+}
 input{
 	width: 90%;
 }
