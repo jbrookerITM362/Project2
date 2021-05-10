@@ -61,9 +61,6 @@ form{
 	border-color: #222;
 	background-color: #0B62A4;
 }
-.First name:{ 
-	line-break: auto;
-}
 input{
 	width: 90%;
 }
@@ -75,6 +72,7 @@ label{
 	text-decoration: underline;
 	margin-top: 1em;
 	color: #E1E8ED;
+	line-break: auto;
 }
 ul {
 	padding: 1em;
